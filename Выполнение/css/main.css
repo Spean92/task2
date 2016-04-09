@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	position: relative;
+	width: 960px;
+	height: inherit;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	height: 75px;
+	background-color: #303030;
+}
+
+#content {
+	height: 650px;
+}
+
+#content .wrapper>header {
+	font-family: sans-serif;
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #333;
+	margin: 18px auto;;
+}
+#content .wrapper>header>span {
+	color: #f26517;
+}
+#content .wrapper .left_section {
+	float: left;
+}
+#content .wrapper .left_section .main_content {
+	background-color: #196731;
+	width: 625px;
+	height: 270px;
+}
+#content .wrapper .left_section .description {
+	background-color: #ececec;
+	width: 625px;
+	margin: 15px 0;
+}
+#content .wrapper .left_section .description img {
+	width: 14px;
+	height: 14px;
+	padding: 0 5px 0 15px;
+}
+#content .wrapper .left_section .description p {
+	width: 92%;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 19px;
+	padding: 8px 5px;
+}
+#content .wrapper .left_section .bot_content {
+	background-color: #196731;
+	width: 625px;
+	height: 145px;
+}
+#content .wrapper .right_section {
+	float: right;
+	width: 320px;
+	height: 560px;
+	background-color: #303030;
+}
+#content .wrapper .right_section header {
+	width: 85%;
+	margin: 0 auto;
+	padding: 13px 0 5px 0;
+	font-family: sans-serif;
+	font-size: 23px;
+	color: white;
+	text-align: center;
+}
+#content .wrapper .right_section header span {
+	color: #5bca1f;
+	text-transform: uppercase;
+}
+#content .wrapper .right_section input, select, button {
+	width: 83%;
+	margin: 10px 6%;
+	font: sans-serif;
+}
+::-webkit-input-placeholder {color:#333;}
+::-moz-placeholder          {color:#333;}/* Firefox 19+ */
+:-moz-placeholder           {color:#333;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#333;}
+
+#content .wrapper .right_section input {
+	height: 30px;
+	border: none;
+	padding: 11px 0 11px 15px;
+	color: black;
+	font-size: 16px;
+}
+#content .wrapper .right_section select {
+	width: 89%;
+	height: 54px;
+	padding: 12px 0 12px 15px;
+	font-size: 16px;
+}
+#content .wrapper .right_section button {
+	line-height: 68px;
+	width: 89%;
+	background-color: #5bca1f;
+	border: none;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+#pre_footer {
+	background-color: #cacaca;
+	height: 50px;
+}
+#pre_footer .wrapper p{
+	line-height: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+footer .wrapper {
+	height: 60px;
+	margin: 0 auto;
+}
+footer .wrapper img {
+	height: 41%;
+	margin: 16px 3px;
+	opacity: 0.5;
+}
+footer .wrapper img:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+#post_footer {
+	height: 70px;
+	background-color: #ececec;
+}
